@@ -88,28 +88,28 @@
 .s2 {
   width: 100%;
   height: 100vh;
+  display: grid;
+  align-items: center;
+  margin-top: 10vh;
 
   background-color: #252525;
 }
 
 .s2-title {
-  width: 334px;
-
   font-weight: 600;
   font-size: 48px;
   line-height: 59px;
 
-  color: #000000;
+  color: #fff;
 }
 
 .s2-text {
-  width: 447px;
-
+  width: 528px;
   font-size: 24px;
   line-height: 29px;
+  margin-top: 32px;
 
-  color: #000000;
-  margin-top: 20px;
+  color: #ffffff;
 }
 
 .s2-content {
@@ -118,10 +118,63 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  margin-top: 28px;
 }
 
 .serve-img {
   width: 95.75%;
+}
+
+.s3-title {
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 36px;
+
+  margin-top: 66px;
+
+  color: #000000;
+}
+
+.age-icon,
+.saftey-icon,
+.driver-icon {
+  height: 125px;
+}
+
+.adv-div {
+  /* width: 40%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 89px;
+}
+
+.age-text {
+  width: 299px;
+
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #1b1b1b;
+  margin-top: 45px;
+}
+
+.advantages {
+  width: 90.4%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.business-age {
+  border-right: 2px solid #000000;
+  padding-right: 30px;
+}
+
+.business-driver {
+  border-left: 2px solid #000000;
+  padding-left: 30px;
 }
