@@ -10,6 +10,7 @@ a {
 }
 
 body {
+  width: 100%;
   overflow-x: hidden;
   font-family: "Montserrat";
 }
@@ -42,7 +43,7 @@ body {
   line-height: 29px;
 }
 
-.logo {
+.logo-link {
   margin-left: 3.125%;
 }
 
@@ -70,4 +71,61 @@ footer p {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+@media screen and (max-width: 850px) {
+  .logo-link {
+    margin-left: 0;
+  }
+
+  .logo-link {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .nav-links {
+    display: none;
+    margin-right: 3.125%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 406px;
+  }
+
+  .nav-link {
+    display: none;
+
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .call {
+    display: none;
+  }
+
+  footer {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    background: #252525;
+  }
+
+  footer p {
+    color: white;
+    font-size: 20px;
+
+    text-align: center;
+  }
+
+  .footer-details {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }
